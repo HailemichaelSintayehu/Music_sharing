@@ -11,11 +11,11 @@ import { getSongs, streamSong } from "./controllers/songController.js"; //generi
 import {userJwtMiddleware} from "./middlewares/authMiddleware.js"; // auth middleware
 import conn from "./config/db.js"; // database connection
 
-dotenv.config();
-const app = express();
+dotenv.config()
+const app = express()
 
 /// MIDDLEWARES
-app.use(express.json());
+app.use(express.json())
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 
