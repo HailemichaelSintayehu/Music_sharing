@@ -20,7 +20,7 @@ const Home = () => {
       }}
     >
       <div className="flex flex-col justify-center items-center space-y-3 bg-[rgba(0,0,0,0.2)]  w-full h-screen -mt-40 lg:-mt-20">
-        <h1 className="text-3xl lg:text-5xl text-white font-bold hero-enter-active">Juke Stream</h1>
+        <h1 className="text-3xl lg:text-5xl text-white font-bold hero-enter-active">Music Stream</h1>
         <p className="text-white text-xl lg:text-3xl">Listen to your favorite songs</p>
         <div className="flex flex-col lg:flex-row space-y-5 lg:space-y-0 lg:space-x-5">
           {

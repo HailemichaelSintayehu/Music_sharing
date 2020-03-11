@@ -28,7 +28,7 @@ const Navbar = () => {
       <nav className=" mx-auto w-full flex justify-between items-center sticky top-5">
         <Link to={'/'} className="w-32 text-white">
           {/* <Logo /> */}
-          JukeStream
+          MusicStream
         </Link>
         <button onClick={toggleMenu} className="lg:hidden">
           <BsFillMenuAppFill size={25} />
